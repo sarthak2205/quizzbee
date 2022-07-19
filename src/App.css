@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    border: 2px solid #101116;
+    border-radius: 5px;
+}
+
+.title{
+    margin: 2px;
+    border: 1px solid #101116;
+    border-radius: 5px;
+    background: #101116;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.questionBox {
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px;
+    margin-top: 8px;
+    column-gap: 1cm;
+    row-gap: 10px;
+}
+
+.answerBtn {
+    background: #FFA500;
+    color: #ffffff;
+    border: none;
+    margin: 7px;
+    margin-left: 12px;
+}
+
+.score-board{
+display:absolute;
+top: 50%;
+text-align: center;
+margin-top: 35%;
+margin-bottom: 50%;
+justify-content: center;
+align-items: center;
+
+}
+
+.playBtn {
+    background: #00B140;
+    color: #ffffff;
+    align-content: center;
+}
+.score{
+    font-size: 26px;
+}
